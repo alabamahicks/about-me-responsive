@@ -1,0 +1,115 @@
+body {
+  /* Typography declarations */
+  color: #182140; /*navy from image*/
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+em {
+  font-weight: bolder;
+}
+.introduction > p, 
+.where > p,
+.content-footer > p {
+    /* Typography declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+.questions > h3 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #FF0066; /*pink from image*/
+        /* Layout declarations */
+  margin: 2em 0 1em 0;
+}
+
+.masthead-intro {
+    /* Layout declarations */
+    margin-bottom: 0.1em;
+    /* Typography declarations */
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 2em;
+    color: #FF0066; /*pink from image*/
+}
+.masthead-heading { 
+    /* Layout declarations */
+  margin-top: -0.2em;
+    /* Typography declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #FF0066; /*pink from image*/
+  text-shadow: 1px 1px 1px #182140;
+}
+.masthead-heading,
+.masthead-intro,
+.content-footer {
+  text-align: center;
+}
+.masthead {
+  padding: 1em 0 9em 0; /*top-bottom right-left*/
+  background-image: url('images/fjords.jpeg');
+  background-size: cover;
+  background-position: 0 1%;
+  border-top: solid 1em #FF0066;
+}
+.masthead-intro {
+  margin-bottom: 0.1em;
+}
+.masthead-heading {
+  margin-top: -0.2em;
+}
+
+
+section > p > a {
+  color: #5D768E; /*french blue from image*/
+  text-decoration: none;
+  font-weight: bolder;
+}
+section.introduction,
+section.where,
+section.questions,
+content-footer {
+  max-width: 38em; /*best way to center*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+section > h1 {
+  margin-top: 2em;
+}
+
+.content-footer {
+  position: relative;
+  padding: 2em 0;
+  background-color: #182140; /*navy from image*/
+}
+.content-footer > p {
+    font: 3em/3em, Helvetica;
+    color: #A4D8CC; /*mint from image*/
+}
+.content-footer > p > a {
+  color: white;
+  text-decoration: none;
+}
+.social > li {
+  display: inline-block;
+}
+ul.social {
+      -webkit-padding-end: 40px;
+}
+.icons {
+  padding: 0 1em;
+  color: white; /* doesn't work */
+}
+
+.content-footer.social > li {
+  color: white; /* doesn't work */
+}
+
+
+
+
+
